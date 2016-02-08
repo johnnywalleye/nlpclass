@@ -2,101 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d0a0c0f-b86e-431f-ad54-39eceb3cf6ea" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/SpamLord.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/CustomLanguageModel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/Datum.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/EditModel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/HolbrookCorpus.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/LaplaceBigramLanguageModel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/LaplaceUnigramLanguageModel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/Sentence.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/SpellCorrect.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/SpellingResult.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/StupidBackoffLanguageModel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/UniformLanguageModel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/UnigramLanguageModel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/submit.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/NaiveBayes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/submit.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/ArrayMath.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/Base64.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/Datum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/Datum.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/FeatureFactory.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/Index.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/LogConditionalObjectiveFunction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/LogPrior.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/MEMM.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/NER.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/QNMinimizer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/Scorer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/Viterbi.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/ArrayMath.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/Base64.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/Datum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/Index.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/LogConditionalObjectiveFunction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/LogPrior.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/MEMM.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/QNMinimizer$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/QNMinimizer$MaxEvaluationsExceeded.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/QNMinimizer$NumericallyZeroGradient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/QNMinimizer$QNInfo$NegativeCurvature.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/QNMinimizer$QNInfo$ZeroGradient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/QNMinimizer$QNInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/QNMinimizer$Record.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/QNMinimizer$SurpriseConvergence.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/QNMinimizer$eLineSearch.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/QNMinimizer$eScaling.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/QNMinimizer$eState.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/QNMinimizer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/Scorer$Pair.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/Scorer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/Viterbi.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/org/json/JSONArray.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/org/json/JSONException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/org/json/JSONObject$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/org/json/JSONObject$Null.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/org/json/JSONObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/org/json/JSONString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/org/json/JSONStringer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/org/json/JSONTokener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/classes/org/json/JSONWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/org/json/JSONArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/org/json/JSONException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/org/json/JSONObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/org/json/JSONString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/org/json/JSONStringer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/org/json/JSONTokener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/org/json/JSONWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw5/submit.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw6/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw6/S1.gr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw6/S2.gr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw6/Vocab.gr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw6/allowed_words" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw6/dev.sen" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw6/pcfg.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw7/PCFGParserTester.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw7/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw7/io/MASCTreebankReader.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw7/io/NumberRangeFileFilter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw7/io/PennTreebankReader.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw7/io/TreebankReader.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw7/io/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw7/ling/Constituent.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw7/ling/Tree.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw7/ling/Trees.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw7/ling/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw7/pennParser/EnglishPennTreebankParseEvaluator.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw7/pennParser/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw7/run" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw7/submit" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw7/submit.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw8/IRSystem.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw8/PorterStemmer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw8/submit.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/nlpclass.iml" afterPath="$PROJECT_DIR$/.idea/nlpclass.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw2/python/LaplaceBigramLanguageModel.py" afterPath="$PROJECT_DIR$/hw2/python/LaplaceBigramLanguageModel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw2/python/LaplaceUnigramLanguageModel.py" afterPath="$PROJECT_DIR$/hw2/python/LaplaceUnigramLanguageModel.py" />
     </list>
     <ignored path="nlpclass.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,14 +28,34 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf>
-          <file leaf-file-name="SpamLord.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/hw1/python/SpamLord.py">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="UnigramLanguageModel.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/hw2/python/UnigramLanguageModel.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.90335053">
-                  <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LaplaceUnigramLanguageModel.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/hw2/python/LaplaceUnigramLanguageModel.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.38659793">
+                  <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HolbrookCorpus.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/hw2/python/HolbrookCorpus.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
                   <folding>
-                    <element signature="e#0#10#0" expanded="true" />
+                    <element signature="e#0#23#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -135,42 +65,26 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="jure" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hw1/data/dev/jure">
+          <file leaf-file-name="LaplaceBigramLanguageModel.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/hw2/python/LaplaceBigramLanguageModel.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.76804125">
+                  <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+                  <folding>
+                    <element signature="e#0#18#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SpellCorrect.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/hw2/python/SpellCorrect.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="jurafsky" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hw1/data/dev/jurafsky">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="126" column="9" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="serafim" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hw1/data/dev/serafim">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.074074">
-                  <caret line="92" column="109" selection-start-line="92" selection-start-column="106" selection-end-line="92" selection-end-column="109" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="widom" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/hw1/data/dev/widom">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.33247423">
-                  <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-                  <folding />
+                  <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#0#11#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -187,12 +101,15 @@
       <list>
         <option value="$PROJECT_DIR$/hw1/misses" />
         <option value="$PROJECT_DIR$/hw1/python/SpamLord.py" />
+        <option value="$PROJECT_DIR$/hw2/python/LaplaceUnigramLanguageModel.py" />
+        <option value="$PROJECT_DIR$/hw2/python/LaplaceBigramLanguageModel.py" />
+        <option value="$PROJECT_DIR$/hw2/python/SpellCorrect.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1393" />
+    <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -220,6 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -235,6 +153,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="nlpclass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfs_lec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,10 +183,6 @@
               <option name="myItemId" value="nlpclass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hw1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -276,7 +194,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hw1" />
+              <option name="myItemId" value="hw2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -294,41 +212,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hw1" />
+              <option name="myItemId" value="hw2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nlpclass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nlpclass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hw1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -464,6 +363,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2d0a0c0f-b86e-431f-ad54-39eceb3cf6ea" name="Default" comment="" />
@@ -474,27 +376,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1393" height="873" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2503477" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18333334" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -504,107 +414,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hw3/data/imdb1/neg/cv054_4101.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/data/imdb1/neg/cv055_8926.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw5/data/dev">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw5/data/train">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw7/data/parser/masc/train/ch5.mrg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw7/data/parser/masc/train/chZ.mrg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw7/data/parser/masc/train/VOL15_3.mrg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw7/data/parser/masc/train/110CYL067.mrg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw7/data/parser/masc/train/110CYL068.mrg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw7/data/parser/masc/train/110CYL069.mrg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw7/data/parser/masc/train/110CYL070.mrg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw7/data/parser/masc/train/110CYL071.mrg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hw7/data/parser/masc/train/110CYL072.mrg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -612,7 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,7 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -628,7 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,7 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -644,7 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28994846">
           <caret line="15" column="11" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,7 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,7 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,7 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,7 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -684,7 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,7 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,7 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,7 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3556701">
           <caret line="101" column="94" selection-start-line="101" selection-start-column="2" selection-end-line="101" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3556701">
           <caret line="76" column="89" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="89" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,7 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40592784">
           <caret line="21" column="58" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25233644">
           <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="11" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,7 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="74" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17396908">
           <caret line="9" column="61" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3170103">
           <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55941254">
           <caret line="127" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,7 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.76159793">
           <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.60695875">
           <caret line="138" column="14" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.314433">
           <caret line="68" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7036083">
           <caret line="308" column="77" selection-start-line="308" selection-start-column="74" selection-end-line="308" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34793815">
           <caret line="18" column="12" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35246995">
           <caret line="61" column="61" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,48 +635,167 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25233644">
           <caret line="79" column="12" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw1/data/dev/jure">
+    <entry file="file://$PROJECT_DIR$/hw1/data/dev/widom">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw1/data/dev/jurafsky">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="126" column="9" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.13917525">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hw1/data/dev/serafim">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.074074">
+        <state vertical-scroll-proportion="0.4201031">
           <caret line="92" column="109" selection-start-line="92" selection-start-column="106" selection-end-line="92" selection-end-column="109" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw1/data/dev/widom">
+    <entry file="file://$PROJECT_DIR$/hw1/data/dev/jurafsky">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33247423">
-          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.019329896">
+          <caret line="126" column="6" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw1/data/dev/jure">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15463917">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hw1/python/SpamLord.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90335053">
-          <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="92" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw2/data/count_1edit.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw2/data/holbrook-tagged-train.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.77319586">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw2/data/holbrook-tagged-dev.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw2/python/StupidBackoffLanguageModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17396908">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw2/python/CustomLanguageModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw2/python/Datum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw2/python/EditModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw2/python/Sentence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw2/python/UniformLanguageModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw2/python/UnigramLanguageModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw2/python/HolbrookCorpus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw2/python/LaplaceUnigramLanguageModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38659793">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw2/python/SpellCorrect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw2/python/LaplaceBigramLanguageModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76804125">
+          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
