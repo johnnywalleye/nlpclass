@@ -9,8 +9,6 @@ class CustomLanguageModel:
 
     Some differences though, around words unseen in the training corpus, as I did not find
     Chen & Goodman to be totally clear on this.  (See comments in 'score' method)
-
-    The results (20.2% accuracy) beat Stupid Backoff (18.5% accuracy) for this dataset.
     """
     def __init__(self, corpus, d_val=0.75):
         """Initialize your data structures in the constructor."""
@@ -48,13 +46,16 @@ class CustomLanguageModel:
         for k, v in self.bigram_counts.iteritems():
             words = k.split(':')
             df.loc[words[0], words[1]] = v
-        self.unique_words_count = len(self.unique_words_set)
-        self.bigram_counts_by_first_word = dict(df.sum(axis=1))
+        self.set_count_values(df)
+
+    def set_count_values(self, df):
         df_binary = df.copy()
         df_binary[df_binary > 0] = 1
-        self.unique_bigrams_count = df.sum().sum()
-        self.unique_words_count_following_this_word = dict(df.sum(axis=1))
-        self.unique_words_count_preceding_this_word = dict(df.sum(axis=0))
+        self.unique_words_count = len(self.unique_words_set)
+        self.bigram_counts_by_first_word = dict(df.sum(axis=1))
+        self.unique_bigrams_count = df_binary.sum().sum()
+        self.unique_words_count_following_this_word = dict(df_binary.sum(axis=1))
+        self.unique_words_count_preceding_this_word = dict(df_binary.sum(axis=0))
 
     def score(self, sentence):
         """ Takes a list of strings as argument and returns the log-probability of the
@@ -66,16 +67,19 @@ class CustomLanguageModel:
             if last_token is not None:
                 bigram_lookup_token = ':'.join([last_token, token])
                 bigram_count = self.bigram_counts[bigram_lookup_token]
-                bigram_count_first_word = self.bigram_counts_by_first_word[last_token] if last_token in self.bigram_counts_by_first_word else 0
+                bigram_count_first_word = self.bigram_counts_by_first_word[last_token]\
+                    if last_token in self.bigram_counts_by_first_word else 0
                 if bigram_count_first_word == 0:
-                    bigram_count_first_word = 1  # Assumption to avoid divide by zero
+                    bigram_count_first_word = self.d_val  # Assumption to avoid divide by zero
                 first_term = max(bigram_count - self.d_val, 0) / bigram_count_first_word
 
-                prob = self.d_val / bigram_count_first_word
-                unique_words_following_token = self.unique_words_count_following_this_word[last_token] if last_token in self.unique_words_count_following_this_word else 0
-                unique_words_preceding_token = self.unique_words_count_preceding_this_word[token] if token in self.unique_words_count_preceding_this_word else 0
-                second_term = prob * unique_words_following_token *\
-                    unique_words_preceding_token * self.unique_bigrams_count
+                unique_words_following_token = self.unique_words_count_following_this_word[last_token]\
+                    if last_token in self.unique_words_count_following_this_word else 0
+                backoff_factor = (self.d_val / bigram_count_first_word) * unique_words_following_token
+                unique_words_preceding_token = self.unique_words_count_preceding_this_word[token]\
+                    if token in self.unique_words_count_preceding_this_word else 0
+                second_term = backoff_factor * unique_words_preceding_token / self.unique_bigrams_count
+
                 if second_term == 0:  # Assumption to avoid zero probability, based on discussion here: http://stats.stackexchange.com/questions/114863/in-kneser-ney-smoothing-how-are-unseen-words-handled
                     second_term = float(self.d_val) / self.unique_words_count
                 score += math.log(first_term + second_term)

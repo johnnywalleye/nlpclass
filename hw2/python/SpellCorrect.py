@@ -109,10 +109,10 @@ def main():
   print 'Uniform Language Model: '
   uniformLM = UniformLanguageModel(trainingCorpus)
   uniformSpell = SpellCorrect(uniformLM, trainingCorpus)
-  uniformOutcome = uniformSpell.evaluate(devCorpus) 
+  uniformOutcome = uniformSpell.evaluate(devCorpus)
   print str(uniformOutcome)
 
-  print 'Laplace Unigram Language Model: ' 
+  print 'Laplace Unigram Language Model: '
   laplaceUnigramLM = LaplaceUnigramLanguageModel(trainingCorpus)
   laplaceUnigramSpell = SpellCorrect(laplaceUnigramLM, trainingCorpus)
   laplaceUnigramOutcome = laplaceUnigramSpell.evaluate(devCorpus)
@@ -124,17 +124,18 @@ def main():
   laplaceBigramOutcome = laplaceBigramSpell.evaluate(devCorpus)
   print str(laplaceBigramOutcome)
 
-  print 'Stupid Backoff Language Model: '  
+  print 'Stupid Backoff Language Model: '
   sbLM = StupidBackoffLanguageModel(trainingCorpus)
   sbSpell = SpellCorrect(sbLM, trainingCorpus)
   sbOutcome = sbSpell.evaluate(devCorpus)
   print str(sbOutcome)
 
   print 'Custom Language Model (Interpolated Kneser-Ney [roughly]): '
-  customLM = CustomLanguageModel(trainingCorpus)
+  customLM = CustomLanguageModel(trainingCorpus, 0.5)
   customSpell = SpellCorrect(customLM, trainingCorpus)
   customOutcome = customSpell.evaluate(devCorpus)
   print str(customOutcome)
+
 
 if __name__ == "__main__":
     main()
