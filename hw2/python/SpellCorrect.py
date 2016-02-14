@@ -130,7 +130,7 @@ def main():
   sbOutcome = sbSpell.evaluate(devCorpus)
   print str(sbOutcome)
 
-  print 'Custom Language Model: '
+  print 'Custom Language Model (Interpolated Kneser-Ney [roughly]): '
   customLM = CustomLanguageModel(trainingCorpus)
   customSpell = SpellCorrect(customLM, trainingCorpus)
   customOutcome = customSpell.evaluate(devCorpus)
