@@ -1,0 +1,32 @@
+------------------------------------
+Naive Bayes, stop words included
+------------------------------------
+[INFO]	Performing 10-fold cross-validation on data set:	../data/imdb1/
+[INFO]	Fold 0 Accuracy: 0.770000
+[INFO]	Fold 1 Accuracy: 0.820000
+[INFO]	Fold 2 Accuracy: 0.810000
+[INFO]	Fold 3 Accuracy: 0.830000
+[INFO]	Fold 4 Accuracy: 0.815000
+[INFO]	Fold 5 Accuracy: 0.800000
+[INFO]	Fold 6 Accuracy: 0.815000
+[INFO]	Fold 7 Accuracy: 0.830000
+[INFO]	Fold 8 Accuracy: 0.755000
+[INFO]	Fold 9 Accuracy: 0.815000
+[INFO]	Accuracy: 0.806000
+
+
+------------------------------------
+Naive Bayes, stop words removed
+------------------------------------
+[INFO]	Performing 10-fold cross-validation on data set:	../data/imdb1/
+[INFO]	Fold 0 Accuracy: 0.770000
+[INFO]	Fold 1 Accuracy: 0.825000
+[INFO]	Fold 2 Accuracy: 0.810000
+[INFO]	Fold 3 Accuracy: 0.805000
+[INFO]	Fold 4 Accuracy: 0.815000
+[INFO]	Fold 5 Accuracy: 0.810000
+[INFO]	Fold 6 Accuracy: 0.825000
+[INFO]	Fold 7 Accuracy: 0.820000
+[INFO]	Fold 8 Accuracy: 0.775000
+[INFO]	Fold 9 Accuracy: 0.825000
+[INFO]	Accuracy: 0.808000

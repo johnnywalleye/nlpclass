@@ -17,10 +17,15 @@ import getopt
 import os
 import math
 import collections
+import numpy as np
 import operator
+import re
+import sklearn as sl
+import sklearn.feature_extraction
+import sklearn.svm
 
 
-class NaiveBayes:
+class NaiveBayes(object):
     class TrainSplit:
         """Represents a set of training/testing data. self.train is a list of Examples, as is self.test.
         """
@@ -234,6 +239,119 @@ class NaiveBayes:
         return splits
 
 
+class NaiveBayesBoolean(NaiveBayes):
+    def __init__(self):
+        super(NaiveBayesBoolean, self).__init__()
+
+    def classify(self, words):
+        words_set = set(words)
+        return super(NaiveBayesBoolean, self).classify(words_set)
+
+    def addExample(self, klass, words):
+        words_set = set(words)
+        super(NaiveBayesBoolean, self).addExample(klass, words_set)
+
+
+class NaiveBayesBooleanWithNegation(NaiveBayes):
+    def __init__(self):
+        super(NaiveBayesBooleanWithNegation, self).__init__()
+        self.negation_re = r'[Nn]ot|n\'t$|[Nn]ever'
+        self.punctuation_set = set('.,?!()')
+        self.negation_prefix = 'NOT_'
+
+    def classify(self, words):
+        words_with_negation = self._negate_words(words)
+        return super(NaiveBayesBooleanWithNegation, self).classify(words_with_negation)
+
+    def addExample(self, klass, words):
+        words_with_negation = self._negate_words(words)
+        super(NaiveBayesBooleanWithNegation, self).addExample(klass, words_with_negation)
+
+    def _negate_words(self, words):
+        words_with_negation = list(words)
+        negate = False
+        for idx in range(1, len(words_with_negation)):
+            if words_with_negation[idx] in self.punctuation_set:
+                negate = False
+            elif negate or re.match(self.negation_re, words[idx - 1]) is not None:
+                words_with_negation[idx] = self.negation_prefix + words_with_negation[idx]
+                negate = True
+        return words_with_negation
+
+
+class Svm(NaiveBayes):
+    """
+    Despite this being an SVM, for now inherit from NaiveBayes as a hack to reuse loading, cross validation methods
+    """
+    def __init__(self, C, kernel):
+        super(Svm, self).__init__()
+        self._is_model_trained = False
+        self._corpuses = []
+        self._classes = []
+        self._val_map = {'neg': 0, 'pos': 1}
+        self._model = None
+        self._vectorizer = None
+        self._C = C
+        self._kernel = kernel
+
+    def classify(self, words):
+        if not self._is_model_trained:
+            self._train_model()
+            self._is_model_trained = True
+        x = self._vectorizer.transform([' '.join(words)]).toarray()
+        if self._model.predict([x[-1, :]])[0] == 0:
+            return 'neg'
+        else:
+            return 'pos'
+
+    def addExample(self, klass, words):
+        if self._is_model_trained:
+            self._corpuses = [] # sl.feature_extraction.text.CountVectorizer(min_df=1)
+            self._classes = []
+            self._is_model_trained = False
+        self._classes.append(klass)
+        self._corpuses.append(' '.join(words))
+
+    def _train_model(self):
+        self._vectorizer = sl.feature_extraction.text.CountVectorizer(min_df=1)
+        X_sparse = self._vectorizer.fit_transform(self._corpuses)
+        X = X_sparse.toarray()
+        y = np.array([self._val_map[val] for val in self._classes])
+        self._model = sl.svm.SVC(C=self._C, kernel=self._kernel)
+        self._model.fit(X, y)
+        self._is_model_trained = True
+
+
+class GenericFactory(object):
+    def __init__(self):
+        pass
+
+
+class NaiveBayesFactory(GenericFactory):
+    def get_model(self):
+        return NaiveBayes()
+
+
+class NaiveBayesBooleanFactory(GenericFactory):
+    def get_model(self):
+        return NaiveBayesBoolean()
+
+
+class NaiveBayesBooleanWithNegationFactory(GenericFactory):
+    def get_model(self):
+        return NaiveBayesBooleanWithNegation()
+
+
+class SvmFactory(GenericFactory):
+    def __init__(self, C):
+        super(SvmFactory, self).__init__()
+        self.C = C  # Reminder: in sklearn, higher magnitude C means less regularization
+        self.kernel = 'linear'
+
+    def get_model(self):
+        return Svm(C=self.C, kernel=self.kernel)
+
+
 def main():
     nb = NaiveBayes()
 
@@ -243,22 +361,33 @@ def main():
         options = [('', '')]
         args = ['../data/imdb1/']
     else:
-        (options, args) = getopt.getopt(sys.argv[1:], 'f')
+        (options, args) = getopt.getopt(sys.argv[1:], 'fbns:')
     if ('-f', '') in options:
         nb.FILTER_STOP_WORDS = True
+    if ('-b', '') in options:
+        model_factory = NaiveBayesBooleanFactory()
+    elif('-n', '') in options:
+        model_factory = NaiveBayesBooleanWithNegationFactory()
+    elif('-s', '1') in options:
+        model_factory = SvmFactory(1)
+    elif('-s', '1e3') in options:
+        model_factory = SvmFactory(1e3)
+    elif('-s', '1e6') in options:
+        model_factory = SvmFactory(1e6)
+    else:
+        model_factory = NaiveBayesFactory()
 
     splits = nb.buildSplits(args)
     avgAccuracy = 0.0
     fold = 0
     for split in splits:
-        classifier = NaiveBayes()
+        classifier = model_factory.get_model()
         accuracy = 0.0
         for example in split.train:
             words = example.words
             if nb.FILTER_STOP_WORDS:
                 words = classifier.filterStopWords(words)
             classifier.addExample(example.klass, words)
-
         for example in split.test:
             words = example.words
             if nb.FILTER_STOP_WORDS:
