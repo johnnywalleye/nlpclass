@@ -1,0 +1,225 @@
+1	S2
+1	S2	_Adj
+1	S2	_Adverb
+1	S2	_Conj
+1	S2	_Det
+1	S2	_Eos
+1	S2	_Misc
+1	S2	_Noun
+1	S2	_NounP
+1	S2	_NumP
+1	S2	_NumS
+1	S2	_Pause
+1	S2	_Prep
+1	S2	_Proper
+1	S2	_VerbT
+1	_Adj	Adj
+1	_Adj	Adj _Adj
+1	_Adj	Adj _Adverb
+1	_Adj	Adj _Conj
+1	_Adj	Adj _Det
+1	_Adj	Adj _Eos
+1	_Adj	Adj _Misc
+1	_Adj	Adj _Noun
+1	_Adj	Adj _NounP
+1	_Adj	Adj _NumP
+1	_Adj	Adj _NumS
+1	_Adj	Adj _Pause
+1	_Adj	Adj _Prep
+1	_Adj	Adj _Proper
+1	_Adj	Adj _VerbT
+1	_Adverb	Adverb
+1	_Adverb	Adverb _Adj
+1	_Adverb	Adverb _Adverb
+1	_Adverb	Adverb _Conj
+1	_Adverb	Adverb _Det
+1	_Adverb	Adverb _Eos
+1	_Adverb	Adverb _Misc
+1	_Adverb	Adverb _Noun
+1	_Adverb	Adverb _NounP
+1	_Adverb	Adverb _NumP
+1	_Adverb	Adverb _NumS
+1	_Adverb	Adverb _Pause
+1	_Adverb	Adverb _Prep
+1	_Adverb	Adverb _Proper
+1	_Adverb	Adverb _VerbT
+1	_Conj	Conj
+1	_Conj	Conj _Adj
+1	_Conj	Conj _Adverb
+1	_Conj	Conj _Conj
+1	_Conj	Conj _Det
+1	_Conj	Conj _Eos
+1	_Conj	Conj _Misc
+1	_Conj	Conj _Noun
+1	_Conj	Conj _NounP
+1	_Conj	Conj _NumP
+1	_Conj	Conj _NumS
+1	_Conj	Conj _Pause
+1	_Conj	Conj _Prep
+1	_Conj	Conj _Proper
+1	_Conj	Conj _VerbT
+1	_Det	Det
+1	_Det	Det _Adj
+1	_Det	Det _Adverb
+1	_Det	Det _Conj
+1	_Det	Det _Det
+1	_Det	Det _Eos
+1	_Det	Det _Misc
+1	_Det	Det _Noun
+1	_Det	Det _NounP
+1	_Det	Det _NumP
+1	_Det	Det _NumS
+1	_Det	Det _Pause
+1	_Det	Det _Prep
+1	_Det	Det _Proper
+1	_Det	Det _VerbT
+1	_Eos	Eos
+1	_Eos	Eos _Adj
+1	_Eos	Eos _Adverb
+1	_Eos	Eos _Conj
+1	_Eos	Eos _Det
+1	_Eos	Eos _Eos
+1	_Eos	Eos _Misc
+1	_Eos	Eos _Noun
+1	_Eos	Eos _NounP
+1	_Eos	Eos _NumP
+1	_Eos	Eos _NumS
+1	_Eos	Eos _Pause
+1	_Eos	Eos _Prep
+1	_Eos	Eos _Proper
+1	_Eos	Eos _VerbT
+1	_Misc	Misc
+1	_Misc	Misc _Adj
+1	_Misc	Misc _Adverb
+1	_Misc	Misc _Conj
+1	_Misc	Misc _Det
+1	_Misc	Misc _Eos
+1	_Misc	Misc _Misc
+1	_Misc	Misc _Noun
+1	_Misc	Misc _NounP
+1	_Misc	Misc _NumP
+1	_Misc	Misc _NumS
+1	_Misc	Misc _Pause
+1	_Misc	Misc _Prep
+1	_Misc	Misc _Proper
+1	_Misc	Misc _VerbT
+1	_Noun	Noun
+1	_Noun	Noun _Adj
+1	_Noun	Noun _Adverb
+1	_Noun	Noun _Conj
+1	_Noun	Noun _Det
+1	_Noun	Noun _Eos
+1	_Noun	Noun _Misc
+1	_Noun	Noun _Noun
+1	_Noun	Noun _NounP
+1	_Noun	Noun _NumP
+1	_Noun	Noun _NumS
+1	_Noun	Noun _Pause
+1	_Noun	Noun _Prep
+1	_Noun	Noun _Proper
+1	_Noun	Noun _VerbT
+1	_NounP	NounP
+1	_NounP	NounP _Adj
+1	_NounP	NounP _Adverb
+1	_NounP	NounP _Conj
+1	_NounP	NounP _Det
+1	_NounP	NounP _Eos
+1	_NounP	NounP _Misc
+1	_NounP	NounP _Noun
+1	_NounP	NounP _NounP
+1	_NounP	NounP _NumP
+1	_NounP	NounP _NumS
+1	_NounP	NounP _Pause
+1	_NounP	NounP _Prep
+1	_NounP	NounP _Proper
+1	_NounP	NounP _VerbT
+1	_NumP	NumP
+1	_NumP	NumP _Adj
+1	_NumP	NumP _Adverb
+1	_NumP	NumP _Conj
+1	_NumP	NumP _Det
+1	_NumP	NumP _Eos
+1	_NumP	NumP _Misc
+1	_NumP	NumP _Noun
+1	_NumP	NumP _NounP
+1	_NumP	NumP _NumP
+1	_NumP	NumP _NumS
+1	_NumP	NumP _Pause
+1	_NumP	NumP _Prep
+1	_NumP	NumP _Proper
+1	_NumP	NumP _VerbT
+1	_NumS	NumS
+1	_NumS	NumS _Adj
+1	_NumS	NumS _Adverb
+1	_NumS	NumS _Conj
+1	_NumS	NumS _Det
+1	_NumS	NumS _Eos
+1	_NumS	NumS _Misc
+1	_NumS	NumS _Noun
+1	_NumS	NumS _NounP
+1	_NumS	NumS _NumP
+1	_NumS	NumS _NumS
+1	_NumS	NumS _Pause
+1	_NumS	NumS _Prep
+1	_NumS	NumS _Proper
+1	_NumS	NumS _VerbT
+1	_Pause	Pause
+1	_Pause	Pause _Adj
+1	_Pause	Pause _Adverb
+1	_Pause	Pause _Conj
+1	_Pause	Pause _Det
+1	_Pause	Pause _Eos
+1	_Pause	Pause _Misc
+1	_Pause	Pause _Noun
+1	_Pause	Pause _NounP
+1	_Pause	Pause _NumP
+1	_Pause	Pause _NumS
+1	_Pause	Pause _Pause
+1	_Pause	Pause _Prep
+1	_Pause	Pause _Proper
+1	_Pause	Pause _VerbT
+1	_Prep	Prep
+1	_Prep	Prep _Adj
+1	_Prep	Prep _Adverb
+1	_Prep	Prep _Conj
+1	_Prep	Prep _Det
+1	_Prep	Prep _Eos
+1	_Prep	Prep _Misc
+1	_Prep	Prep _Noun
+1	_Prep	Prep _NounP
+1	_Prep	Prep _NumP
+1	_Prep	Prep _NumS
+1	_Prep	Prep _Pause
+1	_Prep	Prep _Prep
+1	_Prep	Prep _Proper
+1	_Prep	Prep _VerbT
+1	_Proper	Proper
+1	_Proper	Proper _Adj
+1	_Proper	Proper _Adverb
+1	_Proper	Proper _Conj
+1	_Proper	Proper _Det
+1	_Proper	Proper _Eos
+1	_Proper	Proper _Misc
+1	_Proper	Proper _Noun
+1	_Proper	Proper _NounP
+1	_Proper	Proper _NumP
+1	_Proper	Proper _NumS
+1	_Proper	Proper _Pause
+1	_Proper	Proper _Prep
+1	_Proper	Proper _Proper
+1	_Proper	Proper _VerbT
+1	_VerbT	VerbT
+1	_VerbT	VerbT _Adj
+1	_VerbT	VerbT _Adverb
+1	_VerbT	VerbT _Conj
+1	_VerbT	VerbT _Det
+1	_VerbT	VerbT _Eos
+1	_VerbT	VerbT _Misc
+1	_VerbT	VerbT _Noun
+1	_VerbT	VerbT _NounP
+1	_VerbT	VerbT _NumP
+1	_VerbT	VerbT _NumS
+1	_VerbT	VerbT _Pause
+1	_VerbT	VerbT _Prep
+1	_VerbT	VerbT _Proper
+1	_VerbT	VerbT _VerbT

@@ -1,0 +1,28 @@
+# The start symbol is START.
+
+# These two rules are required; choose their weights carefully!
+5	START	S1
+1	START	S2
+
+# This is a very, very, very simple grammar to get you started.
+
+1	NPVP	NP VP
+1	S1	NPVP Eos
+
+1	VP	VerbT NP
+1	VP	VerbT Adverb
+1	VP	VerbT PP
+1	VP	VerbT VerbT PP
+
+20	NP	Det Nbar
+1	NP	Proper
+1	NP	Det Proper
+2	NP	NP Conj NP
+1	NP	NumP NounP
+2	NP	NP Pause NP
+
+10	Nbar	Noun
+1	Nbar	Adj Noun
+1	Nbar	Nbar PP
+
+1	PP	Prep NP

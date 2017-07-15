@@ -1,0 +1,571 @@
+[PCFGParser]	log prob = -17.59	sentence : Arthur is the king .
+[PCFGParser]	best parse tree: 
+(START
+   (S1
+      (NPVP
+         (NP
+            (Proper Arthur))
+         (VP
+            (VerbT is)
+            (NP
+               (Det the)
+               (Nbar
+                  (Noun king)))))
+      (Eos .)))
+[PCFGParser]	log prob = -32.38	sentence : Arthur rides the horse near the castle .
+[PCFGParser]	best parse tree: 
+(START
+   (S1
+      (NPVP
+         (NP
+            (Proper Arthur))
+         (VP
+            (VerbT rides)
+            (NP
+               (Det the)
+               (Nbar
+                  (Nbar
+                     (Noun horse))
+                  (PP
+                     (Prep near)
+                     (NP
+                        (Det the)
+                        (Nbar
+                           (Noun castle))))))))
+      (Eos .)))
+[PCFGParser]	log prob = -54.29	sentence : riding to Camelot is hard .
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Misc
+         (Misc riding)
+         (_Misc
+            (Misc to)
+            (_Proper
+               (Proper Camelot)
+               (_VerbT
+                  (VerbT is)
+                  (_Adj
+                     (Adj hard)
+                     (_Eos
+                        (Eos .)))))))))
+[PCFGParser]	log prob = -37.30	sentence : do coconuts speak ?
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Misc
+         (Misc do)
+         (_NounP
+            (NounP coconuts)
+            (_VerbT
+               (VerbT speak)
+               (_Eos
+                  (Eos ?)))))))
+[PCFGParser]	log prob = -44.93	sentence : what does Arthur ride ?
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Misc
+         (Misc what)
+         (_Misc
+            (Misc does)
+            (_Proper
+               (Proper Arthur)
+               (_VerbT
+                  (VerbT ride)
+                  (_Eos
+                     (Eos ?))))))))
+[PCFGParser]	log prob = -65.62	sentence : who does Arthur suggest she carry ?
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Misc
+         (Misc who)
+         (_Misc
+            (Misc does)
+            (_Proper
+               (Proper Arthur)
+               (_VerbT
+                  (VerbT suggest)
+                  (_Misc
+                     (Misc she)
+                     (_VerbT
+                        (VerbT carry)
+                        (_Eos
+                           (Eos ?))))))))))
+[PCFGParser]	log prob = -61.02	sentence : why does England have a king ?
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Misc
+         (Misc why)
+         (_Misc
+            (Misc does)
+            (_Proper
+               (Proper England)
+               (_VerbT
+                  (VerbT have)
+                  (_Det
+                     (Det a)
+                     (_Noun
+                        (Noun king)
+                        (_Eos
+                           (Eos ?))))))))))
+[PCFGParser]	log prob = -72.69	sentence : are they suggesting Arthur ride to Camelot ?
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_VerbT
+         (VerbT are)
+         (_Misc
+            (Misc they)
+            (_Misc
+               (Misc suggesting)
+               (_Proper
+                  (Proper Arthur)
+                  (_VerbT
+                     (VerbT ride)
+                     (_Misc
+                        (Misc to)
+                        (_Proper
+                           (Proper Camelot)
+                           (_Eos
+                              (Eos ?)))))))))))
+[PCFGParser]	log prob = -32.05	sentence : five strangers are at the Round Table .
+[PCFGParser]	best parse tree: 
+(START
+   (S1
+      (NPVP
+         (NP
+            (NumP five)
+            (NounP strangers))
+         (VP
+            (VerbT are)
+            (PP
+               (Prep at)
+               (NP
+                  (Det the)
+                  (Proper Round) Table)))))
+      (Eos .)))
+[PCFGParser]	log prob = -45.60	sentence : Guinevere might have known .
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Proper
+         (Proper Guinevere)
+         (_Misc
+            (Misc might)
+            (_VerbT
+               (VerbT have)
+               (_Misc
+                  (Misc known)
+                  (_Eos
+                     (Eos .))))))))
+[PCFGParser]	log prob = -57.84	sentence : Guinevere should be riding with Patsy .
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Proper
+         (Proper Guinevere)
+         (_Misc
+            (Misc should)
+            (_VerbT
+               (VerbT be)
+               (_Misc
+                  (Misc riding)
+                  (_Prep
+                     (Prep with)
+                     (_Proper
+                        (Proper Patsy)
+                        (_Eos
+                           (Eos .))))))))))
+[PCFGParser]	log prob = -64.88	sentence : it is Sir Lancelot who knows Zoot !
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Misc
+         (Misc it)
+         (_VerbT
+            (VerbT is)
+            (_Proper
+               (Proper Sir) Lancelot)
+               (_Misc
+                  (Misc who)
+                  (_VerbT
+                     (VerbT knows)
+                     (_Proper
+                        (Proper Zoot)
+                        (_Eos
+                           (Eos !))))))))))
+[PCFGParser]	log prob = -52.66	sentence : either Arthur knows or Patsy does .
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Conj
+         (Conj either)
+         (_Proper
+            (Proper Arthur)
+            (_VerbT
+               (VerbT knows)
+               (_Conj
+                  (Conj or)
+                  (_Proper
+                     (Proper Patsy)
+                     (_Misc
+                        (Misc does)
+                        (_Eos
+                           (Eos .))))))))))
+[PCFGParser]	log prob = -74.64	sentence : neither Sir Lancelot nor Guinevere will speak of it .
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Conj
+         (Conj neither)
+         (_Proper
+            (Proper Sir) Lancelot)
+            (_Conj
+               (Conj nor)
+               (_Proper
+                  (Proper Guinevere)
+                  (_Misc
+                     (Misc will)
+                     (_VerbT
+                        (VerbT speak)
+                        (_Prep
+                           (Prep of)
+                           (_Misc
+                              (Misc it)
+                              (_Eos
+                                 (Eos .))))))))))))
+[PCFGParser]	log prob = -42.17	sentence : the Holy Grail was covered by a yellow fruit .
+[PCFGParser]	best parse tree: 
+(START
+   (S1
+      (NPVP
+         (NP
+            (Det the)
+            (Proper Holy) Grail))
+         (VP
+            (@VerbT-VerbT
+               (VerbT was)
+               (VerbT covered))
+            (PP
+               (Prep by)
+               (NP
+                  (Det a)
+                  (Nbar
+                     (Adj yellow)
+                     (Noun fruit))))))
+      (Eos .)))
+[PCFGParser]	log prob = -75.77	sentence : Zoot might have been carried by a swallow .
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Proper
+         (Proper Zoot)
+         (_Misc
+            (Misc might)
+            (_VerbT
+               (VerbT have)
+               (_Misc
+                  (Misc been)
+                  (_VerbT
+                     (VerbT carried)
+                     (_Prep
+                        (Prep by)
+                        (_Det
+                           (Det a)
+                           (_Noun
+                              (Noun swallow)
+                              (_Eos
+                                 (Eos .))))))))))))
+[PCFGParser]	log prob = -84.28	sentence : Arthur rode to Camelot and drank from his chalice .
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Proper
+         (Proper Arthur)
+         (_VerbT
+            (VerbT rode)
+            (_Misc
+               (Misc to)
+               (_Proper
+                  (Proper Camelot)
+                  (_Conj
+                     (Conj and)
+                     (_VerbT
+                        (VerbT drank)
+                        (_Prep
+                           (Prep from)
+                           (_Misc
+                              (Misc his)
+                              (_Noun
+                                 (Noun chalice)
+                                 (_Eos
+                                    (Eos .)))))))))))))
+[PCFGParser]	log prob = -89.78	sentence : they migrate precisely because they know they will grow .
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Misc
+         (Misc they)
+         (_VerbT
+            (VerbT migrate)
+            (_Adverb
+               (Adverb precisely)
+               (_Misc
+                  (Misc because)
+                  (_Misc
+                     (Misc they)
+                     (_VerbT
+                        (VerbT know)
+                        (_Misc
+                           (Misc they)
+                           (_Misc
+                              (Misc will)
+                              (_VerbT
+                                 (VerbT grow)
+                                 (_Eos
+                                    (Eos .)))))))))))))
+[PCFGParser]	log prob = -40.59	sentence : do not speak !
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Misc
+         (Misc do)
+         (_Misc
+            (Misc not)
+            (_VerbT
+               (VerbT speak)
+               (_Eos
+                  (Eos !)))))))
+[PCFGParser]	log prob = -71.72	sentence : Arthur will have been riding for eight nights .
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Proper
+         (Proper Arthur)
+         (_Misc
+            (Misc will)
+            (_VerbT
+               (VerbT have)
+               (_Misc
+                  (Misc been)
+                  (_Misc
+                     (Misc riding)
+                     (_Prep
+                        (Prep for)
+                        (_NumP
+                           (NumP eight)
+                           (_NounP
+                              (NounP nights)
+                              (_Eos
+                                 (Eos .))))))))))))
+[PCFGParser]	log prob = -69.51	sentence : Arthur , sixty inches , is a tiny king .
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Proper
+         (Proper Arthur)
+         (_Pause
+            (Pause ,)
+            (_NumP
+               (NumP sixty)
+               (_NounP
+                  (NounP inches)
+                  (_Pause
+                     (Pause ,)
+                     (_VerbT
+                        (VerbT is)
+                        (_Det
+                           (Det a)
+                           (_Adj
+                              (Adj tiny)
+                              (_Noun
+                                 (Noun king)
+                                 (_Eos
+                                    (Eos .)))))))))))))
+[PCFGParser]	log prob = -39.41	sentence : Arthur knows Patsy , the trusty servant .
+[PCFGParser]	best parse tree: 
+(START
+   (S1
+      (NPVP
+         (NP
+            (Proper Arthur))
+         (VP
+            (VerbT knows)
+            (NP
+               (@NP-Pause
+                  (NP
+                     (Proper Patsy))
+                  (Pause ,))
+               (NP
+                  (Det the)
+                  (Nbar
+                     (Adj trusty)
+                     (Noun servant))))))
+      (Eos .)))
+[PCFGParser]	log prob = -30.19	sentence : Arthur and Guinevere migrate frequently .
+[PCFGParser]	best parse tree: 
+(START
+   (S1
+      (NPVP
+         (NP
+            (@NP-Conj
+               (NP
+                  (Proper Arthur))
+               (Conj and))
+            (NP
+               (Proper Guinevere)))
+         (VP
+            (VerbT migrate)
+            (Adverb frequently)))
+      (Eos .)))
+[PCFGParser]	log prob = -86.04	sentence : he knows what they are covering with that story .
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Misc
+         (Misc he)
+         (_VerbT
+            (VerbT knows)
+            (_Misc
+               (Misc what)
+               (_Misc
+                  (Misc they)
+                  (_VerbT
+                     (VerbT are)
+                     (_Misc
+                        (Misc covering)
+                        (_Prep
+                           (Prep with)
+                           (_Det
+                              (Det that)
+                              (_Noun
+                                 (Noun story)
+                                 (_Eos
+                                    (Eos .)))))))))))))
+[PCFGParser]	log prob = -62.43	sentence : Arthur suggested that the castle be carried .
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Proper
+         (Proper Arthur)
+         (_VerbT
+            (VerbT suggested)
+            (_Det
+               (Det that)
+               (_Det
+                  (Det the)
+                  (_Noun
+                     (Noun castle)
+                     (_VerbT
+                        (VerbT be)
+                        (_VerbT
+                           (VerbT carried)
+                           (_Eos
+                              (Eos .)))))))))))
+[PCFGParser]	log prob = -87.89	sentence : the king drank to the castle that was his home .
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Det
+         (Det the)
+         (_Noun
+            (Noun king)
+            (_VerbT
+               (VerbT drank)
+               (_Misc
+                  (Misc to)
+                  (_Det
+                     (Det the)
+                     (_Noun
+                        (Noun castle)
+                        (_Det
+                           (Det that)
+                           (_VerbT
+                              (VerbT was)
+                              (_Misc
+                                 (Misc his)
+                                 (_Noun
+                                    (Noun home)
+                                    (_Eos
+                                       (Eos .))))))))))))))
+[PCFGParser]	log prob = -62.08	sentence : when the king drinks , Patsy drinks .
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Misc
+         (Misc when)
+         (_Det
+            (Det the)
+            (_Noun
+               (Noun king)
+               (_VerbT
+                  (VerbT drinks)
+                  (_Pause
+                     (Pause ,)
+                     (_Proper
+                        (Proper Patsy)
+                        (_VerbT
+                           (VerbT drinks)
+                           (_Eos
+                              (Eos .)))))))))))
+[PCFGParser]	log prob = -48.14	sentence : Arthur knows what Patsy drinks .
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Proper
+         (Proper Arthur)
+         (_VerbT
+            (VerbT knows)
+            (_Misc
+               (Misc what)
+               (_Proper
+                  (Proper Patsy)
+                  (_VerbT
+                     (VerbT drinks)
+                     (_Eos
+                        (Eos .)))))))))
+[PCFGParser]	log prob = -31.17	sentence : speak not !
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_VerbT
+         (VerbT speak)
+         (_Misc
+            (Misc not)
+            (_Eos
+               (Eos !))))))
+[PCFGParser]	log prob = -24.27	sentence : Arthur knows the Holy Grail .
+[PCFGParser]	best parse tree: 
+(START
+   (S1
+      (NPVP
+         (NP
+            (Proper Arthur))
+         (VP
+            (VerbT knows)
+            (NP
+               (Det the)
+               (Proper Holy) Grail))))
+      (Eos .)))
+[PCFGParser]	log prob = -56.75	sentence : Arthur should be riding with Zoot .
+[PCFGParser]	best parse tree: 
+(START
+   (S2
+      (_Proper
+         (Proper Arthur)
+         (_Misc
+            (Misc should)
+            (_VerbT
+               (VerbT be)
+               (_Misc
+                  (Misc riding)
+                  (_Prep
+                     (Prep with)
+                     (_Proper
+                        (Proper Zoot)
+                        (_Eos
+                           (Eos .))))))))))
+[PCFGParser]	cross-entropy=7.460 perplexity=1.760e+02
